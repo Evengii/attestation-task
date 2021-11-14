@@ -2,7 +2,6 @@ package base;
 
 import configs.Configs;
 import configs.Credentials;
-import configs.Storage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
@@ -22,12 +21,12 @@ public class TestBase {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver95.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Configs.TIMEOUT_SECONDS);
-        driver.get(Configs.LOGIN_PAGE_URL);
+        driver.get(Configs.LOCAL_BASE_URL);
     }
 
-    public DashboardHomePage authorize(Credentials creds){
+    public DashboardHomePage authorize(Credentials credentials){
         loginPage = new LoginPage(driver, wait);
-        loginPage.setCredentials(creds);
+        loginPage.setCredentials(credentials);
         return loginPage.clickLoginButton();
     }
 

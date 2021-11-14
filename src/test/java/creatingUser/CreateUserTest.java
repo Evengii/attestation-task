@@ -2,6 +2,7 @@ package creatingUser;
 
 import FMadmin.users.CreateNewUserForm;
 import base.TestBase;
+import configs.Credentials;
 import configs.Storage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -15,10 +16,10 @@ public class CreateUserTest extends TestBase {
 
     @DisplayName("Creating a user")
     @ParameterizedTest(name = "Run: {index} - value: {arguments}")
-    @CsvFileSource(files = {"src/test/resources/users.csv"}, numLinesToSkip = 1)
+    @CsvFileSource(files = {"src/test/resources/FMuser/users.csv"}, numLinesToSkip = 1)
     public void createUser(String name, String surname, String title, String phone, String email){
 
-        DashboardHomePage dashboardHomePage = authorize(Storage.fundManagerAdmin);
+        DashboardHomePage dashboardHomePage = authorize(Credentials.fundManagerCreds());
         ManageUsersPage manageUsersPage = dashboardHomePage.openUsersPage();
         Assertions.assertTrue(manageUsersPage.isCreateNewUserButtonDisplayed(), "Users page not opened");
 

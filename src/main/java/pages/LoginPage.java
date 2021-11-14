@@ -4,7 +4,11 @@ import configs.Configs;
 import configs.Credentials;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class LoginPage {
     private WebDriver driver;
@@ -13,6 +17,8 @@ public class LoginPage {
     private By emailInput = By.id("email");
     private By passwordInput = By.id("password");
     private By loginButton = By.id("loginButton");
+    private By termsOfUseSign = By.id("terms-of-use");
+    private By acceptTermsButton = By.xpath("//button[@class='ant-btn ant-btn-primary']");
 
     public LoginPage(WebDriver driver, WebDriverWait wait){
         this.driver = driver;
@@ -32,5 +38,4 @@ public class LoginPage {
     public boolean getEmailInput(){
         return driver.findElement(emailInput).isDisplayed();
     }
-
 }

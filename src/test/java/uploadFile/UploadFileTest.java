@@ -3,6 +3,7 @@ package uploadFile;
 import PCuser.library.LibraryPage;
 import PCuser.library.UploadFileForm;
 import base.TestBase;
+import configs.Credentials;
 import configs.Storage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -17,7 +18,7 @@ public class UploadFileTest extends TestBase {
     @ParameterizedTest(name = "Run: {index} - value: {arguments}")
     @CsvFileSource(files = {"src/test/resources/PCuser.library/filesPaths.csv"}, numLinesToSkip = 1)
     public void testUploadingFile(String year, String absolutePath){
-        DashboardHomePage dashboardHomePage = authorize(Storage.fundManagerAdmin);
+        DashboardHomePage dashboardHomePage = authorize(Credentials.companyUser2Creds());
         LibraryPage libraryPage = dashboardHomePage.openLibrary();
 
         UploadFileForm uploadFileForm = libraryPage.clickUploadFileButton();
@@ -28,7 +29,7 @@ public class UploadFileTest extends TestBase {
 
         uploadFileForm.setChooseFile(absolutePath);
         String timestamp = uploadFileForm.clickUploadButton();
-        Assertions.assertFalse(uploadFileForm.getPopUpSign().equals("Processing Fails"), "Such period already exist");
+        Assertions.assertEquals("Processing Fails", uploadFileForm.getPopUpSign(), "Such period already exist");
         uploadFileForm.clickPopUpGotItButton();
         Assertions.assertTrue(timestamp.equals(uploadFileForm.getTimeOfFileUploading()), "File is not uploaded");
 

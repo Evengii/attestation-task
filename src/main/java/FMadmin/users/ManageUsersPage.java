@@ -3,6 +3,7 @@ package FMadmin.users;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -15,7 +16,8 @@ public class ManageUsersPage {
 
     private By createNewUserButton = By.id("addNewUserButton");
     private By editButton = By.id("editButton");
-    private By userCheckbox = By.xpath("//tr[@class='ant-table-row ant-table-row-level-0']");
+    private By userCheckbox = By.cssSelector("tr td input[type='checkbox']");
+    private By rowElements = By.cssSelector("tr td.ant-table-cell");
 
     public ManageUsersPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -23,7 +25,10 @@ public class ManageUsersPage {
     }
 
     public EditUserForm clickEditButton(){
-        driver.findElement(editButton).click();
+        if(userIsSelected()) {
+            driver.findElement(editButton).click();
+        } else
+            selectAnyUser();
         return new EditUserForm(driver, wait);
     }
 
@@ -32,12 +37,11 @@ public class ManageUsersPage {
         return new CreateNewUserForm(driver, wait);
     }
 
-    public WebElement selectAnyUser(){
+    public void selectAnyUser(){
         Random random = new Random();
         List<WebElement> elements = driver.findElements(userCheckbox);
-        WebElement element = elements.get(random.nextInt(elements.size()-1));
+        WebElement element = elements.get(random.nextInt(elements.size()));
         element.click();
-        return element;
     }
 
     // Assertions
@@ -45,7 +49,11 @@ public class ManageUsersPage {
         return driver.findElement(createNewUserButton).isDisplayed();
     }
 
-    public boolean userIsSelected(WebElement element){
-        return element.isSelected();
+    public boolean userIsSelected(){
+        return driver.findElement(userCheckbox).isSelected();
+    }
+
+    public String getFirstNameOfChosenUser(){
+        return driver.findElements(rowElements).get(2).getText();
     }
 }
