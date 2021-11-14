@@ -1,5 +1,6 @@
 package pages;
 
+import FMadmin.users.GlobalMetricsPage;
 import FMadmin.users.ManageUsersPage;
 import PCuser.library.LibraryPage;
 import configs.Configs;
@@ -22,6 +23,7 @@ public class DashboardHomePage {
 
     private By profileButton = By.id("profileButton");
     private By logoutButton = By.id("logoutButton");
+    private By metricsNavigationButton = By.id("metricsNavigationButton");
 
     public DashboardHomePage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -40,6 +42,12 @@ public class DashboardHomePage {
         driver.findElement(libraryButton).click();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(listOfLibraries)));
         return new LibraryPage(driver, wait);
+    }
+
+    public GlobalMetricsPage openGlobalMetricsPage(){
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Configs.TIMEOUT_SECONDS));
+        driver.findElement(metricsNavigationButton).click();
+        return new GlobalMetricsPage(driver, wait);
     }
 
     public void clickProfileButton(){

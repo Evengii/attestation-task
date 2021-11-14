@@ -29,7 +29,7 @@ public class CreateNewUserForm {
     }
 
     public void fillRequiredFields(String name, String surname, String title, String phone, String email){
-        if(checkIfAlreadyUserExist(email)){
+        if(checkIfUserAlreadyExist(email)){
             email = replaceSymbolInEmail(email);
         }
         driver.findElement(firstNameInput).sendKeys(name);
@@ -40,7 +40,7 @@ public class CreateNewUserForm {
     }
 
     // Each user must have own unique email. That is checking for uniqueness a new user's email and old ones
-    private boolean checkIfAlreadyUserExist(String email){
+    private boolean checkIfUserAlreadyExist(String email){
         boolean check = false;
         for(String element : getExistedUsersEmails()){
             check = element.equalsIgnoreCase(email);
@@ -66,6 +66,8 @@ public class CreateNewUserForm {
         return elements.stream().map(e->e.getText()).collect(Collectors.toList());
     }
 
+    //Assertions
+
     // Function get num of users before creating new one and after that. So here we assert that new user actually created
     public boolean clickSubmitCreation(){
         int usersBefore = driver.findElements(userRow).size();
@@ -77,8 +79,6 @@ public class CreateNewUserForm {
         } else
             return false;
     }
-
-    //Assertions
 
     public boolean getFirstNameInput() {
         return driver.findElement(firstNameInput).isDisplayed();

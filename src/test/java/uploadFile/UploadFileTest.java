@@ -29,7 +29,6 @@ public class UploadFileTest extends TestBase {
 
         uploadFileForm.setChooseFile(absolutePath);
         String timestamp = uploadFileForm.clickUploadButton();
-        Assertions.assertEquals("Processing Fails", uploadFileForm.getPopUpSign(), "Such period already exist");
         uploadFileForm.clickPopUpGotItButton();
         Assertions.assertTrue(timestamp.equals(uploadFileForm.getTimeOfFileUploading()), "File is not uploaded");
 

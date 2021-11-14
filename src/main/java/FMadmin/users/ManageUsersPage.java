@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -33,9 +34,12 @@ public class ManageUsersPage {
     }
 
     public CreateNewUserForm clickCreateNewUser(){
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(createNewUserButton)));
         driver.findElement(createNewUserButton).click();
         return new CreateNewUserForm(driver, wait);
     }
+
+
 
     public void selectAnyUser(){
         Random random = new Random();

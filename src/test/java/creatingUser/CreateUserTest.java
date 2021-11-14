@@ -23,18 +23,10 @@ public class CreateUserTest extends TestBase {
         ManageUsersPage manageUsersPage = dashboardHomePage.openUsersPage();
         Assertions.assertTrue(manageUsersPage.isCreateNewUserButtonDisplayed(), "Users page not opened");
 
-        CreateNewUserForm createNewUserForm = manageUsersPage.clickCreateNewUser();
-        Assertions.assertAll(
-                () -> Assertions.assertTrue(createNewUserForm.getFirstNameInput(), "First field not displayed"),
-                () -> Assertions.assertTrue(createNewUserForm.getLastNameInput(), "Last field not displayed"),
-                () -> Assertions.assertTrue(createNewUserForm.getEmailInput(), "Email field not displayed"),
-                () -> Assertions.assertTrue(createNewUserForm.getTitleInput(), "Title field not displayed"),
-                () -> Assertions.assertTrue(createNewUserForm.getPhoneInput(), "Phone field not displayed"),
-                () -> Assertions.assertTrue(createNewUserForm.getCreateUserButton(), "Create button not displayed")
-        );
+        CreateNewUserForm newUserForm = manageUsersPage.clickCreateNewUser();
 
-        createNewUserForm.fillRequiredFields(name, surname, title, phone, email);
-        Assertions.assertTrue(createNewUserForm.clickSubmitCreation(), "User is not displayed in the table");
+        newUserForm.fillRequiredFields(name, surname, title, phone, email);
+        Assertions.assertTrue(newUserForm.clickSubmitCreation(), "User is not displayed in the table");
 
         LoginPage loginPage = logout();
         Assertions.assertTrue(loginPage.getEmailInput(), "You didn't log out");

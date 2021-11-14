@@ -10,7 +10,7 @@ public class Credentials {
     }
 
     public static Credentials fundManagerCreds(){
-        return new Credentials("1eneil@nail.col","qwerty");
+        return new Credentials("tstprsn1@mail.crom","qwerty");
     }
 
     public static Credentials companyUser1Creds(){
