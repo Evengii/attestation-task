@@ -35,7 +35,7 @@ public class UploadFileForm {
 
     public void selectFromFiscalYearDropdown(String year){
         findFiscalYearDropdown();
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(listOfFiscalYears)));
+        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(listOfFiscalYears)));
         driver.findElement(By.xpath("//div[@title='" + year + "']")).click(); // xpath of title in list with fiscal years
     }
 

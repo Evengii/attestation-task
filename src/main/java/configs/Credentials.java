@@ -10,7 +10,7 @@ public class Credentials {
     }
 
     public static Credentials fundManagerCreds(){
-        return new Credentials("tstprsn1@mail.crom","qwerty");
+        return new Credentials("ksmart-preston@aerisinsight.com","Kasp$1268");
     }
 
     public static Credentials companyUser1Creds(){
@@ -23,5 +23,9 @@ public class Credentials {
 
     public static Credentials companyUser3Creds(){
         return new Credentials("123454@email.con","qwerty");
+    }
+
+    public static Credentials companyUser4Creds(){
+        return new Credentials("lawrence.buchan@aerisinsight.com","Lawrencepassword");
     }
 }

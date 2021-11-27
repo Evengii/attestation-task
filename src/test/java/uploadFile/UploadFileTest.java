@@ -18,7 +18,7 @@ public class UploadFileTest extends TestBase {
     @ParameterizedTest(name = "Run: {index} - value: {arguments}")
     @CsvFileSource(files = {"src/test/resources/PCuser.library/filesPaths.csv"}, numLinesToSkip = 1)
     public void testUploadingFile(String year, String absolutePath){
-        DashboardHomePage dashboardHomePage = authorize(Credentials.companyUser2Creds());
+        DashboardHomePage dashboardHomePage = authorize(Credentials.companyUser4Creds());
         LibraryPage libraryPage = dashboardHomePage.openLibrary();
 
         UploadFileForm uploadFileForm = libraryPage.clickUploadFileButton();

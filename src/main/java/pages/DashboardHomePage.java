@@ -21,6 +21,7 @@ public class DashboardHomePage {
     private By libraryButton = By.xpath("//li[text()='Library']");
     private By listOfLibraries = By.className("ant-table-thead");
 
+    //Common
     private By profileButton = By.id("profileButton");
     private By logoutButton = By.id("logoutButton");
     private By metricsNavigationButton = By.id("metricsNavigationButton");

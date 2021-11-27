@@ -51,7 +51,7 @@ public class CreateNewUserForm {
         return check;
     }
 
-    // In case of email coincidence that function replace one symbol at new email by random one
+    // In case of email coincidence this function replace one symbol at new email by random one
     private String replaceSymbolInEmail(String email) {
         Random random = new Random();
         String newEmail = email.replace(email.charAt(0), (char) (random.nextInt(26 + 'a')));
