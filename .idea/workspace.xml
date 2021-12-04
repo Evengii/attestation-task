@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="" />
+    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FMadmin/users/CreateNewMetricForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FMadmin/users/GlobalMetricsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/configs/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/creatingUser/EditUserNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/metrics/MetricCreatingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/FMuser/editUser/userNameEdit.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/FMuser/newMetrics.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +209,7 @@
       <workItem from="1638212016955" duration="406000" />
       <workItem from="1638256532627" duration="1652000" />
       <workItem from="1638298594451" duration="188000" />
-      <workItem from="1638631676272" duration="2264000" />
+      <workItem from="1638631676272" duration="2893000" />
     </task>
     <task id="LOCAL-00001" summary="fixed logging with different creds.&#10;added test - editing user's name.">
       <created>1636904731214</created>
