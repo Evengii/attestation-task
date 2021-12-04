@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="launch_on_docker" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20osTSeKePlKhTgy6ckDI3HhyTF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-tutorial" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uklad\IdeaProjects\attestation-task\src\test\resources\FMuser\editUser" />
+      <recent name="C:\Users\uklad\IdeaProjects\attestation-task\src\test\resources\FMuser" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.C:/Users/uklad/IdeaProjects/attestation-task">
+    <configuration name="C:/Users/uklad/IdeaProjects/attestation-task" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateUserTest and 2 more (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="creatingUser.CreateUserTest" />
+        <pattern testClass="metrics.MetricCreatingTest" />
+        <pattern testClass="uploadFile.UploadFileTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="creatingUser.CreateUserTest" />
+        <pattern testClass="metrics.MetricCreatingTest" />
+        <pattern testClass="uploadFile.UploadFileTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="creatingUser.CreateUserTest" />
+        <pattern testClass="metrics.MetricCreatingTest" />
+        <pattern testClass="uploadFile.UploadFileTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="creatingUser.CreateUserTest" />
+        <pattern testClass="uploadFile.UploadFileTest" />
+        <pattern testClass="metrics.MetricCreatingTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetricCreatingTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="metrics.MetricCreatingTest" />
+        <pattern testClass="creatingUser.CreateUserTest" />
+        <pattern testClass="uploadFile.UploadFileTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uploadFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uploadFile" />
+      <option name="MAIN_CLASS_NAME" value="uploadFile.UploadFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.C:/Users/uklad/IdeaProjects/attestation-task" />
+        <item itemvalue="JUnit.CreateUserTest and 2 more" />
+        <item itemvalue="JUnit.MetricCreatingTest and 2 more" />
+        <item itemvalue="JUnit.CreateUserTest and 2 more (1)" />
+        <item itemvalue="JUnit.UploadFileTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="" />
+      <created>1636722287756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636722287756</updated>
+      <workItem from="1636722290353" duration="361000" />
+      <workItem from="1636722686734" duration="9356000" />
+      <workItem from="1636741318690" duration="10913000" />
+      <workItem from="1636901957695" duration="4256000" />
+      <workItem from="1636906259991" duration="15492000" />
+      <workItem from="1636976734909" duration="1020000" />
+      <workItem from="1636984320555" duration="1730000" />
+      <workItem from="1637048722524" duration="9054000" />
+      <workItem from="1637133859186" duration="2931000" />
+      <workItem from="1637234123308" duration="246000" />
+      <workItem from="1637746955969" duration="781000" />
+      <workItem from="1637847037451" duration="1764000" />
+      <workItem from="1637850286679" duration="396000" />
+      <workItem from="1638012231215" duration="3849000" />
+      <workItem from="1638212016955" duration="406000" />
+      <workItem from="1638256532627" duration="1652000" />
+      <workItem from="1638298594451" duration="188000" />
+      <workItem from="1638631676272" duration="2264000" />
+    </task>
+    <task id="LOCAL-00001" summary="fixed logging with different creds.&#10;added test - editing user's name.">
+      <created>1636904731214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636904731214</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added test - creating global metric">
+      <created>1636921156970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636921156970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor fixes">
+      <created>1638018147633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638018147633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed logging with different creds" />
+    <MESSAGE value="fixed logging with different creds.&#10;added test - editing user's name." />
+    <MESSAGE value="added test - creating global metric" />
+    <MESSAGE value="minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
+  </component>
+</project>
