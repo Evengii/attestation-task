@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +199,7 @@
       <workItem from="1638212016955" duration="406000" />
       <workItem from="1638256532627" duration="1652000" />
       <workItem from="1638298594451" duration="188000" />
-      <workItem from="1638631676272" duration="3868000" />
+      <workItem from="1638631676272" duration="4359000" />
     </task>
     <task id="LOCAL-00001" summary="fixed logging with different creds.&#10;added test - editing user's name.">
       <created>1636904731214</created>
