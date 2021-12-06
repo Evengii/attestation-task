@@ -1,0 +1,13 @@
+PCuser\library\LibraryPage.class
+pages\DashboardHomePage.class
+FMadmin\users\EditUserForm.class
+pages\LoginPage.class
+FMadmin\users\GlobalMetricsPage.class
+FMadmin\users\ManageUsersPage.class
+FMadmin\users\CreateNewUserForm.class
+pages\Base.class
+configs\Configs.class
+configs\Storage.class
+configs\Credentials.class
+FMadmin\users\CreateNewMetricForm.class
+PCuser\library\UploadFileForm.class
