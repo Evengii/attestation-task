@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="" />
+    <list default="true" id="d77f8dc5-a5a4-4a25-a93e-1d86cd9f65f9" name="Changes" comment="minor fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/creatingUser/EditUserNameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/attestation-task-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-base.TestBase.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-creatingUser.CreateUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-creatingUser.CreateUserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-creatingUser.EditUserNameTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-metrics.MetricCreatingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-metrics.MetricCreatingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-uploadFile.UploadFileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-uploadFile.UploadFileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/base.TestBase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/creatingUser.CreateUserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/creatingUser.CreateUserTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/creatingUser.EditUserNameTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/metrics.MetricCreatingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/metrics.MetricCreatingTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/uploadFile.UploadFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/uploadFile.UploadFileTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/creatingUser/EditUserNameTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -68,7 +88,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.C:/Users/uklad/IdeaProjects/attestation-task">
+  <component name="RunManager" selected="JUnit.CreateUserTest">
     <configuration name="C:/Users/uklad/IdeaProjects/attestation-task" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,6 +156,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attestation-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creatingUser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="creatingUser" />
+      <option name="MAIN_CLASS_NAME" value="creatingUser.CreateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MetricCreatingTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="attestation-task" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -144,21 +179,6 @@
         <pattern testClass="creatingUser.CreateUserTest" />
         <pattern testClass="uploadFile.UploadFileTest" />
       </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="attestation-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uploadFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="uploadFile" />
-      <option name="MAIN_CLASS_NAME" value="uploadFile.UploadFileTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateUserTest" />
         <item itemvalue="Gradle.C:/Users/uklad/IdeaProjects/attestation-task" />
         <item itemvalue="JUnit.CreateUserTest and 2 more" />
         <item itemvalue="JUnit.MetricCreatingTest and 2 more" />
         <item itemvalue="JUnit.CreateUserTest and 2 more (1)" />
-        <item itemvalue="JUnit.UploadFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +230,14 @@
       <workItem from="1638256532627" duration="1652000" />
       <workItem from="1638298594451" duration="188000" />
       <workItem from="1638631676272" duration="7291000" />
+      <workItem from="1639749246637" duration="562000" />
+      <workItem from="1639944167412" duration="660000" />
+      <workItem from="1639944862357" duration="7061000" />
+      <workItem from="1639988354003" duration="253000" />
+      <workItem from="1639988788722" duration="3011000" />
+      <workItem from="1640012899641" duration="2711000" />
+      <workItem from="1640102387814" duration="2097000" />
+      <workItem from="1640104748207" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="fixed logging with different creds.&#10;added test - editing user's name.">
       <created>1636904731214</created>
@@ -243,7 +271,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
